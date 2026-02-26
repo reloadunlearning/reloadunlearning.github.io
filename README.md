@@ -1,15 +1,18 @@
-# Nerfies
+Mitigating Privacy Risk via Forget-Set-Free Unlearning
 
-This is the repository that contains source code for the [Nerfies website](https://nerfies.github.io).
+This is the repository that contains source code for the [RELOAD website](https://reload.github.io) from the ICLR 2026 paper "Mitigating Privacy Risk via Forget-Set-Free Unlearning".
+This webpage is built from the Nerfies repository.
 
-If you find Nerfies useful for your work please cite:
+If you find Reload useful for your work please cite:
 ```
-@article{park2021nerfies
-  author    = {Park, Keunhong and Sinha, Utkarsh and Barron, Jonathan T. and Bouaziz, Sofien and Goldman, Dan B and Seitz, Steven M. and Martin-Brualla, Ricardo},
-  title     = {Nerfies: Deformable Neural Radiance Fields},
-  journal   = {ICCV},
-  year      = {2021},
-}
+@inproceedings{
+  newatia2026mitigating,
+  title={Mitigating Privacy Risk via Forget Set-Free Unlearning},
+  author={Aviraj Newatia and Michael Cooper and Viet Nguyen and Rahul G Krishnan},
+  booktitle={The Fourteenth International Conference on Learning Representations},
+  year={2026},
+  url={https://openreview.net/forum?id=d3R0TF7w5f}
+  }
 ```
 
 # Website License

@@ -3,24 +3,10 @@
 <head>
   <meta charset="utf-8">
   <meta name="description"
-        content="Deformable Neural Radiance Fields creates free-viewpoint portraits (nerfies) from casually captured videos.">
-  <meta name="keywords" content="Nerfies, D-NeRF, NeRF">
+        content="Mitigating Privacy Risk via Forget Set-Free Unlearning">
+  <meta name="keywords" content="reload, unlearning, corrective, partially-blind">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Nerfies: Deformable Neural Radiance Fields</title>
-
-  <!-- Global site tag (gtag.js) - Google Analytics -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-PYVRSFMDRL"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-
-    function gtag() {
-      dataLayer.push(arguments);
-    }
-
-    gtag('js', new Date());
-
-    gtag('config', 'G-PYVRSFMDRL');
-  </script>
+  <title>Mitigating Privacy Risk via Forget Set-Free Unlearning</title>
 
   <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro"
         rel="stylesheet">
@@ -88,39 +74,30 @@
     <div class="container is-max-desktop">
       <div class="columns is-centered">
         <div class="column has-text-centered">
-          <h1 class="title is-1 publication-title">Nerfies: Deformable Neural Radiance Fields</h1>
+          <h1 class="title is-1 publication-title">Mitigating Privacy Risk via Forget Set-Free Unlearning</h1>
           <div class="is-size-5 publication-authors">
             <span class="author-block">
-              <a href="https://keunhong.com">Keunhong Park</a><sup>1</sup>,</span>
+              <a href="http://projectavi.net/">Aviraj Newatia</a><sup>1</sup>,</span>
             <span class="author-block">
-              <a href="https://utkarshsinha.com">Utkarsh Sinha</a><sup>2</sup>,</span>
+              <a href="https://michaeljohncooper.com/">Michael Cooper</a><sup>2</sup>,</span>
             <span class="author-block">
-              <a href="https://jonbarron.info">Jonathan T. Barron</a><sup>2</sup>,
+              <a href="https://www.cs.toronto.edu/~viet/">Viet Nguyen</a><sup>2</sup>,
             </span>
             <span class="author-block">
-              <a href="http://sofienbouaziz.com">Sofien Bouaziz</a><sup>2</sup>,
-            </span>
-            <span class="author-block">
-              <a href="https://www.danbgoldman.com">Dan B Goldman</a><sup>2</sup>,
-            </span>
-            <span class="author-block">
-              <a href="https://homes.cs.washington.edu/~seitz/">Steven M. Seitz</a><sup>1,2</sup>,
-            </span>
-            <span class="author-block">
-              <a href="http://www.ricardomartinbrualla.com">Ricardo Martin-Brualla</a><sup>2</sup>
+              <a href="https://www.cs.toronto.edu/~rahulgk/">Rahul G. Krishnan</a><sup>2</sup>,
             </span>
           </div>
 
           <div class="is-size-5 publication-authors">
-            <span class="author-block"><sup>1</sup>University of Washington,</span>
-            <span class="author-block"><sup>2</sup>Google Research</span>
+            <span class="author-block"><sup>1</sup>University of Toronto,</span>
+            <span class="author-block"><sup>2</sup>Vector Institute</span>
           </div>
 
           <div class="column has-text-centered">
             <div class="publication-links">
               <!-- PDF Link. -->
               <span class="link-block">
-                <a href="https://arxiv.org/pdf/2011.12948"
+                <a href="https://openreview.net/pdf?id=d3R0TF7w5f"
                    class="external-link button is-normal is-rounded is-dark">
                   <span class="icon">
                       <i class="fas fa-file-pdf"></i>
@@ -137,37 +114,37 @@
                   <span>arXiv</span>
                 </a>
               </span>
-              <!-- Video Link. -->
-              <span class="link-block">
-                <a href="https://www.youtube.com/watch?v=MrKrnHhk8IA"
-                   class="external-link button is-normal is-rounded is-dark">
-                  <span class="icon">
-                      <i class="fab fa-youtube"></i>
-                  </span>
-                  <span>Video</span>
-                </a>
-              </span>
+<!--              &lt;!&ndash; Video Link. &ndash;&gt;-->
+<!--              <span class="link-block">-->
+<!--                <a href="https://www.youtube.com/watch?v=MrKrnHhk8IA"-->
+<!--                   class="external-link button is-normal is-rounded is-dark">-->
+<!--                  <span class="icon">-->
+<!--                      <i class="fab fa-youtube"></i>-->
+<!--                  </span>-->
+<!--                  <span>Video </span>-->
+<!--                </a>-->
+<!--              </span>-->
               <!-- Code Link. -->
               <span class="link-block">
-                <a href="https://github.com/google/nerfies"
+                <a href=""
                    class="external-link button is-normal is-rounded is-dark">
                   <span class="icon">
                       <i class="fab fa-github"></i>
                   </span>
-                  <span>Code</span>
+                  <span>Code (coming soon)</span>
                   </a>
               </span>
-              <!-- Dataset Link. -->
-              <span class="link-block">
-                <a href="https://github.com/google/nerfies/releases/tag/0.1"
-                   class="external-link button is-normal is-rounded is-dark">
-                  <span class="icon">
-                      <i class="far fa-images"></i>
-                  </span>
-                  <span>Data</span>
-                  </a>
+<!--              &lt;!&ndash; Dataset Link. &ndash;&gt;-->
+<!--              <span class="link-block">-->
+<!--                <a href="https://github.com/google/nerfies/releases/tag/0.1"-->
+<!--                   class="external-link button is-normal is-rounded is-dark">-->
+<!--                  <span class="icon">-->
+<!--                      <i class="far fa-images"></i>-->
+<!--                  </span>-->
+<!--                  <span>Data</span>-->
+<!--                  </a>-->
+<!--                </span>-->
             </div>
-
           </div>
         </div>
       </div>
@@ -178,76 +155,73 @@
 <section class="hero teaser">
   <div class="container is-max-desktop">
     <div class="hero-body">
-      <video id="teaser" autoplay muted loop playsinline height="100%">
-        <source src="./static/videos/teaser.mp4"
-                type="video/mp4">
-      </video>
+      <img src="./static/images/method_fig_main.png"
+           class="interpolation-image"
+           alt="main method figure."/>
       <h2 class="subtitle has-text-centered">
-        <span class="dnerf">Nerfies</span> turns selfie videos from your phone into
-        free-viewpoint
-        portraits.
+        <span class="dnerf">Reload</span> unlearns private data and data corruptions without access to the forget-set.
       </h2>
     </div>
   </div>
 </section>
 
 
-<section class="hero is-light is-small">
-  <div class="hero-body">
-    <div class="container">
-      <div id="results-carousel" class="carousel results-carousel">
-        <div class="item item-steve">
-          <video poster="" id="steve" autoplay controls muted loop playsinline height="100%">
-            <source src="./static/videos/steve.mp4"
-                    type="video/mp4">
-          </video>
-        </div>
-        <div class="item item-chair-tp">
-          <video poster="" id="chair-tp" autoplay controls muted loop playsinline height="100%">
-            <source src="./static/videos/chair-tp.mp4"
-                    type="video/mp4">
-          </video>
-        </div>
-        <div class="item item-shiba">
-          <video poster="" id="shiba" autoplay controls muted loop playsinline height="100%">
-            <source src="./static/videos/shiba.mp4"
-                    type="video/mp4">
-          </video>
-        </div>
-        <div class="item item-fullbody">
-          <video poster="" id="fullbody" autoplay controls muted loop playsinline height="100%">
-            <source src="./static/videos/fullbody.mp4"
-                    type="video/mp4">
-          </video>
-        </div>
-        <div class="item item-blueshirt">
-          <video poster="" id="blueshirt" autoplay controls muted loop playsinline height="100%">
-            <source src="./static/videos/blueshirt.mp4"
-                    type="video/mp4">
-          </video>
-        </div>
-        <div class="item item-mask">
-          <video poster="" id="mask" autoplay controls muted loop playsinline height="100%">
-            <source src="./static/videos/mask.mp4"
-                    type="video/mp4">
-          </video>
-        </div>
-        <div class="item item-coffee">
-          <video poster="" id="coffee" autoplay controls muted loop playsinline height="100%">
-            <source src="./static/videos/coffee.mp4"
-                    type="video/mp4">
-          </video>
-        </div>
-        <div class="item item-toby">
-          <video poster="" id="toby" autoplay controls muted loop playsinline height="100%">
-            <source src="./static/videos/toby2.mp4"
-                    type="video/mp4">
-          </video>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
+<!--<section class="hero is-light is-small">-->
+<!--  <div class="hero-body">-->
+<!--    <div class="container">-->
+<!--      <div id="results-carousel" class="carousel results-carousel">-->
+<!--        <div class="item item-steve">-->
+<!--          <video poster="" id="steve" autoplay controls muted loop playsinline height="100%">-->
+<!--            <source src="./static/videos/steve.mp4"-->
+<!--                    type="video/mp4">-->
+<!--          </video>-->
+<!--        </div>-->
+<!--        <div class="item item-chair-tp">-->
+<!--          <video poster="" id="chair-tp" autoplay controls muted loop playsinline height="100%">-->
+<!--            <source src="./static/videos/chair-tp.mp4"-->
+<!--                    type="video/mp4">-->
+<!--          </video>-->
+<!--        </div>-->
+<!--        <div class="item item-shiba">-->
+<!--          <video poster="" id="shiba" autoplay controls muted loop playsinline height="100%">-->
+<!--            <source src="./static/videos/shiba.mp4"-->
+<!--                    type="video/mp4">-->
+<!--          </video>-->
+<!--        </div>-->
+<!--        <div class="item item-fullbody">-->
+<!--          <video poster="" id="fullbody" autoplay controls muted loop playsinline height="100%">-->
+<!--            <source src="./static/videos/fullbody.mp4"-->
+<!--                    type="video/mp4">-->
+<!--          </video>-->
+<!--        </div>-->
+<!--        <div class="item item-blueshirt">-->
+<!--          <video poster="" id="blueshirt" autoplay controls muted loop playsinline height="100%">-->
+<!--            <source src="./static/videos/blueshirt.mp4"-->
+<!--                    type="video/mp4">-->
+<!--          </video>-->
+<!--        </div>-->
+<!--        <div class="item item-mask">-->
+<!--          <video poster="" id="mask" autoplay controls muted loop playsinline height="100%">-->
+<!--            <source src="./static/videos/mask.mp4"-->
+<!--                    type="video/mp4">-->
+<!--          </video>-->
+<!--        </div>-->
+<!--        <div class="item item-coffee">-->
+<!--          <video poster="" id="coffee" autoplay controls muted loop playsinline height="100%">-->
+<!--            <source src="./static/videos/coffee.mp4"-->
+<!--                    type="video/mp4">-->
+<!--          </video>-->
+<!--        </div>-->
+<!--        <div class="item item-toby">-->
+<!--          <video poster="" id="toby" autoplay controls muted loop playsinline height="100%">-->
+<!--            <source src="./static/videos/toby2.mp4"-->
+<!--                    type="video/mp4">-->
+<!--          </video>-->
+<!--        </div>-->
+<!--      </div>-->
+<!--    </div>-->
+<!--  </div>-->
+<!--</section>-->
 
 
 <section class="section">
@@ -258,48 +232,37 @@
         <h2 class="title is-3">Abstract</h2>
         <div class="content has-text-justified">
           <p>
-            We present the first method capable of photorealistically reconstructing a non-rigidly
-            deforming scene using photos/videos captured casually from mobile phones.
+            Training machine learning models requires the storage of large datasets, which often contain sensitive or private data.
+            Storing data is associated with a number of potential risks which increase over time, such as database breaches and malicious adversaries.
           </p>
           <p>
-            Our approach augments neural radiance fields
-            (NeRF) by optimizing an
-            additional continuous volumetric deformation field that warps each observed point into a
-            canonical 5D NeRF.
-            We observe that these NeRF-like deformation fields are prone to local minima, and
-            propose a coarse-to-fine optimization method for coordinate-based models that allows for
-            more robust optimization.
-            By adapting principles from geometry processing and physical simulation to NeRF-like
-            models, we propose an elastic regularization of the deformation field that further
-            improves robustness.
+            Machine unlearning is the study of methods to efficiently remove the influence of training data subsets from previously-trained models.
+            Existing unlearning methods typically require direct access to the "forget set"---the data to be forgotten-and organisations must retain this data for unlearning rather than deleting it immediately upon request, increasing risks associated with the forget set.
           </p>
           <p>
-            We show that <span class="dnerf">Nerfies</span> can turn casually captured selfie
-            photos/videos into deformable NeRF
-            models that allow for photorealistic renderings of the subject from arbitrary
-            viewpoints, which we dub <i>"nerfies"</i>. We evaluate our method by collecting data
-            using a
-            rig with two mobile phones that take time-synchronized photos, yielding train/validation
-            images of the same pose at different viewpoints. We show that our method faithfully
-            reconstructs non-rigidly deforming scenes and reproduces unseen views with high
-            fidelity.
+            We introduce <i>partially-blind unlearning</i>---utilizing auxiliary information to unlearn without explicit access to the forget set.
+            We also propose a practical framework Reload, a partially-blind method based on gradient optimization and structured weight sparsification to operationalize partially-blind unlearning.
+          </p>
+          <p>
+            We show that Reload efficiently unlearns, approximating models retrained from scratch, and outperforms several forget set-dependent approaches. On language models, Reload unlearns entities using <0.025% of the retain set and <7% of model weights in <8 minutes on Llama2-7B.
+            In the corrective case, Reload achieves unlearning even when only 10% of corrupted data is identified.
           </p>
         </div>
       </div>
     </div>
     <!--/ Abstract. -->
 
-    <!-- Paper video. -->
-    <div class="columns is-centered has-text-centered">
-      <div class="column is-four-fifths">
-        <h2 class="title is-3">Video</h2>
-        <div class="publication-video">
-          <iframe src="https://www.youtube.com/embed/MrKrnHhk8IA?rel=0&amp;showinfo=0"
-                  frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-        </div>
-      </div>
-    </div>
-    <!--/ Paper video. -->
+<!--    &lt;!&ndash; Paper video. &ndash;&gt;-->
+<!--    <div class="columns is-centered has-text-centered">-->
+<!--      <div class="column is-four-fifths">-->
+<!--        <h2 class="title is-3">Video</h2>-->
+<!--        <div class="publication-video">-->
+<!--          <iframe src="https://www.youtube.com/embed/MrKrnHhk8IA?rel=0&amp;showinfo=0"-->
+<!--                  frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>-->
+<!--        </div>-->
+<!--      </div>-->
+<!--    </div>-->
+<!--    &lt;!&ndash;/ Paper video. &ndash;&gt;-->
   </div>
 </section>
 
@@ -312,15 +275,20 @@
       <!-- Visual Effects. -->
       <div class="column">
         <div class="content">
-          <h2 class="title is-3">Visual Effects</h2>
+          <h2 class="title is-3">Privacy Risk</h2>
           <p>
-            Using <i>nerfies</i> you can create fun visual effects. This Dolly zoom effect
-            would be impossible without nerfies since it would require going through a wall.
+            In many facets of modern life, individuals consent for institutions to collect and use their personal data.
+            The act of collecting and storing a user's data poses inherent risk to the user.
           </p>
-          <video id="dollyzoom" autoplay controls muted loop playsinline height="100%">
-            <source src="./static/videos/dollyzoom-stacked.mp4"
-                    type="video/mp4">
-          </video>
+          <p>
+            Informally, modern machine learning systems expose the user to two types of risk: <i>dataset risk</i> represents the user risk associated with an institution storing a user's data, while <i>model risk</i> represents the additional risk to the user when their data is used to train a machine learning model.
+          </p>
+          <p>
+            Conventional unlearning algorithms admit a cumulative user risk totalling the sum of the <span style="color: #D5E6DE">green</span>, <span style="color: #BEC1D3">blue</span>, and <span style="color: #EFA5A5">red</span> regions. By allowing user data to be deleted immediately once a request for deletion is made, Reload eliminates the user risk associated with the <span style="color: #EFA5A5">red</span> region.
+          </p>
+          <img src="./static/images/privacy_risk.png"
+               class="interpolation-image"
+               alt="privacy risk figure."/>
         </div>
       </div>
       <!--/ Visual Effects. -->
@@ -331,13 +299,12 @@
         <div class="columns is-centered">
           <div class="column content">
             <p>
-              As a byproduct of our method, we can also solve the matting problem by ignoring
-              samples that fall outside of a bounding box during rendering.
+              Reload, combines insights from three families of unlearning algorithms---gradient-based, structured sparsity-based, and finetuning-based algorithms---to implement a procedure that performs unlearning using only minimal auxiliary information about the forget set, rather than the forget set itself. An organisation using Reload would be able to immediately delete user data once a request for deletion is made without inhibiting downstream unlearning.
             </p>
-            <video id="matting-video" controls playsinline height="100%">
-              <source src="./static/videos/matting.mp4"
-                      type="video/mp4">
-            </video>
+
+            <img src="./static/images/method_fig_main.png"
+                 class="interpolation-image"
+                 alt="main method figure."/>."/>
           </div>
 
         </div>
@@ -393,15 +360,15 @@
           </p>
         </div>
         <div class="content has-text-centered">
-          <video id="replay-video"
-                 controls
-                 muted
-                 preload
-                 playsinline
-                 width="75%">
-            <source src="./static/videos/replay.mp4"
-                    type="video/mp4">
-          </video>
+<!--          <video id="replay-video"-->
+<!--                 controls-->
+<!--                 muted-->
+<!--                 preload-->
+<!--                 playsinline-->
+<!--                 width="75%">-->
+<!--            <source src="./static/videos/replay.mp4"-->
+<!--                    type="video/mp4">-->
+<!--          </video>-->
         </div>
         <!--/ Re-rendering. -->
 
@@ -444,12 +411,14 @@
 <section class="section" id="BibTeX">
   <div class="container is-max-desktop content">
     <h2 class="title">BibTeX</h2>
-    <pre><code>@article{park2021nerfies,
-  author    = {Park, Keunhong and Sinha, Utkarsh and Barron, Jonathan T. and Bouaziz, Sofien and Goldman, Dan B and Seitz, Steven M. and Martin-Brualla, Ricardo},
-  title     = {Nerfies: Deformable Neural Radiance Fields},
-  journal   = {ICCV},
-  year      = {2021},
-}</code></pre>
+    <pre><code>@inproceedings{
+  newatia2026mitigating,
+  title={Mitigating Privacy Risk via Forget Set-Free Unlearning},
+  author={Aviraj Newatia and Michael Cooper and Viet Nguyen and Rahul G Krishnan},
+  booktitle={The Fourteenth International Conference on Learning Representations},
+  year={2026},
+  url={https://openreview.net/forum?id=d3R0TF7w5f}
+  }</code></pre>
   </div>
 </section>
 
@@ -474,11 +443,8 @@
             Commons Attribution-ShareAlike 4.0 International License</a>.
           </p>
           <p>
-            This means you are free to borrow the <a
-              href="https://github.com/nerfies/nerfies.github.io">source code</a> of this website,
-            we just ask that you link back to this page in the footer.
-            Please remember to remove the analytics code included in the header of the website which
-            you do not want on your website.
+            This page is built from the Nerfies website <a
+              href="https://github.com/nerfies/nerfies.github.io">source code</a>.
           </p>
         </div>
       </div>
